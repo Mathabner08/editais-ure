@@ -7,19 +7,19 @@
 // A paginação fará o resto de forma automática!
 // ====================================================================
 const dadosPublicacoes = [
-    { id: 1, assunto: "EE DOM BOSCO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_DOM_BOSCO.pdf" },
-    { id: 2, assunto: "EE PROFª ELMOZA ANTONIO JOÃ", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_ELMOZA.pdf" },
-    { id: 3, assunto: "EE PREFEITO GUILHERME BUZINARO", data: "05/02/2026", arquivoUrl: "pdfs/AO-EXCEDENTES_BUZINARO.pdf" },
-    { id: 4, assunto: "EE HANS WIRTH", data: "05/02/2026", arquivoUrl: "pdfs/AOE-EXCEDENTES_HANS.pdf" },
-    { id: 5, assunto: "EE IRALDO ANTONIO MARTINS DE TOLEDO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_IRALDO.pdf" },
-    { id: 6, assunto: "EE JACINTO PERNAS GOMATO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_JACINTO.pdf" },
-    { id: 7, assunto: "EE PROFESSOR JOEL AGUIAR", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_JOEL.pdf" },
-    { id: 8, assunto: "EE DOM LÚCIO ANUTNES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_DOM_LUCIO.pdf" },
-    { id: 9, assunto: "EE MINISTRO OSCAR PEDROSO HORTA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_OSCAR.pdf" },
-    { id: 10, assunto: "EE DR PÉRCIO GOMES GONZALES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_PERCIO.pdf" },
-    { id: 11, assunto: "EE PROFESSOR SALVADOR RAMOS DE MOURA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_SALVADOR.pdf" },
-    { id: 12, assunto: "EE PROFª. TAIEKA TAKAHASHI GIMENES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_TAIEKA.pdf" },
-    { id: 13, assunto: "EE PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_WALDOMIRO.pdf" }
+    { id: 1, assunto: "EE. DOM BOSCO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_DOM_BOSCO.pdf" },
+    { id: 2, assunto: "EE. PROFª ELMOZA ANTONIO JOÃ", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_ELMOZA.pdf" },
+    { id: 3, assunto: "EE. PREFEITO GUILHERME BUZINARO", data: "05/02/2026", arquivoUrl: "pdfs/AO-EXCEDENTES_BUZINARO.pdf" },
+    { id: 4, assunto: "EE. HANS WIRTH", data: "05/02/2026", arquivoUrl: "pdfs/AOE-EXCEDENTES_HANS.pdf" },
+    { id: 5, assunto: "EE. IRALDO ANTONIO MARTINS DE TOLEDO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_IRALDO.pdf" },
+    { id: 6, assunto: "EE .JACINTO PERNAS GOMATO", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_JACINTO.pdf" },
+    { id: 7, assunto: "EE. PROFESSOR JOEL AGUIAR", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_JOEL.pdf" },
+    { id: 8, assunto: "EE. DOM LÚCIO ANUTNES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_DOM_LUCIO.pdf" },
+    { id: 9, assunto: "EE. MINISTRO OSCAR PEDROSO HORTA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_OSCAR.pdf" },
+    { id: 10, assunto: "EE. DR PÉRCIO GOMES GONZALES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_PERCIO.pdf" },
+    { id: 11, assunto: "EE. PROFESSOR SALVADOR RAMOS DE MOURA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_SALVADOR.pdf" },
+    { id: 12, assunto: "EE. PROFª. TAIEKA TAKAHASHI GIMENES", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_TAIEKA.pdf" },
+    { id: 13, assunto: "EE. PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "05/02/2026", arquivoUrl: "pdfs/AOE–EXCEDENTES_WALDOMIRO.pdf" }
 ];
 
 // ====================================================================

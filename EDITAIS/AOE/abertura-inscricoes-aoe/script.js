@@ -7,23 +7,23 @@
 // A paginação fará o resto de forma automática!
 // ====================================================================
 const dadosPublicacoes = [
-    { id: 1, assunto: "EDITAL AOE – EE DOM BOSCO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_DOM_BOSCO.pdf" },
-    { id: 2, assunto: "EDITAL AOE – EE PREF. GUILHERME BUZINARO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PREF_GUILHERME_BUZINARO.pdf" },
-    { id: 3, assunto: "EDITAL AOE – EE HANS WIRTH", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_HANS_WIRTH.pdf" },
-    { id: 4, assunto: "EDITAL AOE – EE IRALDO ANTONIO MARTINS DE TOLEDO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO.pdf" },
-    { id: 5, assunto: "EDITAL AOE – EE ENGº ISAC PEREIRA GARCEZ", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_ENG_ISAC_PEREIRA_GARCEZ.pdf" },
-    { id: 6, assunto: "EDITAL AOE – EE JACINTO PERNAS GOMATO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_JACINTO_PERNAS_GOMATO.pdf" },
-    { id: 7, assunto: "EDITAL AOE – EE JOÃO BERNARDI", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE-EE_JOAO_BERNARDI.pdf" },
-    { id: 8, assunto: "EDITAL AOE – EE JOÃO BRÁSIO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_JOAO_BRASIO.pdf" },
-    { id: 9, assunto: "EDITAL AOE – EE PROFESSOR JOEL AGUIAR", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROFESSOR_JOEL_AGUIAR.pdf" },
-    { id: 10, assunto: "EDITAL AOE – EE PROFª LÉA APARECIDA VIEIRA GUEDES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
-    { id: 11, assunto: "EDITAL AOE - EE PROFESSORA MARIA APARECIDA LOPES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE-EE_PROFESSORA_MARIA_APARECIDA_LOPES.pdf" },
-    { id: 12, assunto: "EDITAL AOE – EE PROF. ORLANDO GUIRADO BRAGA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_ORLANDO_GUIRADO_BRAGA.pdf" },
-    { id: 13, assunto: "EDITAL AOE – EE MINISTRO OSCAR PEDROSO HORTA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_MINISTRO_OSCAR_PEDROSO_HORTA.pdf" },
-    { id: 14, assunto: "EDITAL AOE – EE DR. PÉRCIO GOMES GONZALES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_DR_PERCIO_GOMES_GONZALES.pdf" },
-    { id: 15, assunto: "EDITAL AOE – EE PROF. SALVADOR RAMOS DE MOURA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_SALVADOR_RAMOS_DE_MOURA.pdf" },
-    { id: 16, assunto: "EDITAL AOE – EE PROFª TAIEKA TAKAHASHI GIMENES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_TAIEKA_TAKAHASHI_GIMENES.pdf" },
-    { id: 17, assunto: "EDITAL AOE – EE PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA.pdf" }
+    { id: 1, assunto: "EDITAL AOE – EE. DOM BOSCO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_DOM_BOSCO.pdf" },
+    { id: 2, assunto: "EDITAL AOE – EE. PREF. GUILHERME BUZINARO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PREF_GUILHERME_BUZINARO.pdf" },
+    { id: 3, assunto: "EDITAL AOE – EE. HANS WIRTH", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_HANS_WIRTH.pdf" },
+    { id: 4, assunto: "EDITAL AOE – EE. IRALDO ANTONIO MARTINS DE TOLEDO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO.pdf" },
+    { id: 5, assunto: "EDITAL AOE – EE. ENGº ISAC PEREIRA GARCEZ", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_ENG_ISAC_PEREIRA_GARCEZ.pdf" },
+    { id: 6, assunto: "EDITAL AOE – EE. JACINTO PERNAS GOMATO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_JACINTO_PERNAS_GOMATO.pdf" },
+    { id: 7, assunto: "EDITAL AOE – EE. JOÃO BERNARDI", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE-EE_JOAO_BERNARDI.pdf" },
+    { id: 8, assunto: "EDITAL AOE – EE. JOÃO BRÁSIO", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_JOAO_BRASIO.pdf" },
+    { id: 9, assunto: "EDITAL AOE – EE. PROFESSOR JOEL AGUIAR", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROFESSOR_JOEL_AGUIAR.pdf" },
+    { id: 10, assunto: "EDITAL AOE – EE. PROFª LÉA APARECIDA VIEIRA GUEDES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
+    { id: 11, assunto: "EDITAL AOE - EE. PROFESSORA MARIA APARECIDA LOPES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE-EE_PROFESSORA_MARIA_APARECIDA_LOPES.pdf" },
+    { id: 12, assunto: "EDITAL AOE – EE. PROF. ORLANDO GUIRADO BRAGA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_ORLANDO_GUIRADO_BRAGA.pdf" },
+    { id: 13, assunto: "EDITAL AOE – EE. MINISTRO OSCAR PEDROSO HORTA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_MINISTRO_OSCAR_PEDROSO_HORTA.pdf" },
+    { id: 14, assunto: "EDITAL AOE – EE. DR. PÉRCIO GOMES GONZALES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_DR_PERCIO_GOMES_GONZALES.pdf" },
+    { id: 15, assunto: "EDITAL AOE – EE. PROF. SALVADOR RAMOS DE MOURA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_SALVADOR_RAMOS_DE_MOURA.pdf" },
+    { id: 16, assunto: "EDITAL AOE – EE. PROFª TAIEKA TAKAHASHI GIMENES", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PROF_TAIEKA_TAKAHASHI_GIMENES.pdf" },
+    { id: 17, assunto: "EDITAL AOE – EE. PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "15/05/2026", arquivoUrl: "pdfs/EDITAL_AOE–EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA.pdf" }
 ];
 
 // ====================================================================

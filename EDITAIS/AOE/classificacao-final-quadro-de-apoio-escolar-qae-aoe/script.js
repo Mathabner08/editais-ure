@@ -7,23 +7,23 @@
 // A paginação fará o resto de forma automática!
 // ====================================================================
 const dadosPublicacoes = [
-    { id: 1, assunto: "EE DOM BOSCO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_DOM_BOSCO–09_02_2026.pdf" },
-    { id: 2, assunto: "EE PROFª ELMOZA ANTONIO JOÃO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_ELMOZA_ANTONIO_JOAO–09_02_2026.pdf" },
-    { id: 3, assunto: "EE PREFEITO GUILHERME BUZINARO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PREFEITO_GUILHERME_BUZINARO–09_02_2026.pdf" },
-    { id: 4, assunto: "EE HANS WIRTH – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_HANS_WIRTH–09_02_2026.pdf" },
-    { id: 5, assunto: "EE IRALDO ANTONIO MARTINS DE TOLEDO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO–09_02_2026.pdf" },
-    { id: 6, assunto: "EE JACINTO PERNAS GOMATO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_JACINTO_PERNAS_GOMATO–09_02_2026.pdf" },
-    { id: 7, assunto: "EE JOÃO BERNARDI – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI–09_02_2026.pdf" },
-    { id: 8, assunto: "EE JOÃO BRÁSIO – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO–09_02_2026.pdf" },
-    { id: 9, assunto: "EE PROFESSOR JOEL AGUIAR – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR–09_02_2026.pdf" },
-    { id: 10, assunto: "EE PROF. JOSÉ EDSON MOYSÉS – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_JOSE_EDSON_MOYSES–09_02_2026.pdf" },
-    { id: 11, assunto: "EE PROFª LÉA APARECIDA VIEIRA GUEDES – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES–09_02_2026.pdf" },
-    { id: 12, assunto: "EE DOM LÚCIO ANUTNES – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_DOM_LUCIO_ANUTNES–09_02_2026.pdf" },
-    { id: 13, assunto: "EE MINISTRO OSCAR PEDROSO HORTA– 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_MINISTRO_OSCAR_PEDROSO_HORTA–09_02_2026.pdf" },
-    { id: 14, assunto: "EE DR PÉRCIO GOMES GONZALES – 09_02__2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_DR_PERCIO_GOMES_GONZALES–09_02__2026.pdf" },
-    { id: 15, assunto: "EE PROFESSOR SALVADOR RAMOS DE MOURA – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROFESSOR_SALVADOR_RAMOS_DE_MOURA–09_02_2026.pdf" },
-    { id: 16, assunto: "EE PROFª. TAIEKA TAKAHASHI GIMENES – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_TAIEKA_TAKAHASHI_GIMENES–09_02_2026.pdf" },
-    { id: 17, assunto: "EE PREF. WALDOMIRO SAMPAIO DE SOUZA – 09_02_2026", data: "12/02/2026", arquivoUrl: "pdfs/EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA–09_02_2026.pdf" }
+    { id: 1, assunto: "EE. DOM BOSCO", data: "12/02/2026", arquivoUrl: "pdfs/EE_DOM_BOSCO–09_02_2026.pdf" },
+    { id: 2, assunto: "EE. PROFª ELMOZA ANTONIO JOÃO", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_ELMOZA_ANTONIO_JOAO–09_02_2026.pdf" },
+    { id: 3, assunto: "EE. PREFEITO GUILHERME BUZINARO", data: "12/02/2026", arquivoUrl: "pdfs/EE_PREFEITO_GUILHERME_BUZINARO–09_02_2026.pdf" },
+    { id: 4, assunto: "EE. HANS WIRTH", data: "12/02/2026", arquivoUrl: "pdfs/EE_HANS_WIRTH–09_02_2026.pdf" },
+    { id: 5, assunto: "EE. IRALDO ANTONIO MARTINS DE TOLEDO", data: "12/02/2026", arquivoUrl: "pdfs/EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO–09_02_2026.pdf" },
+    { id: 6, assunto: "EE. JACINTO PERNAS GOMATO", data: "12/02/2026", arquivoUrl: "pdfs/EE_JACINTO_PERNAS_GOMATO–09_02_2026.pdf" },
+    { id: 7, assunto: "EE. JOÃO BERNARDI", data: "12/02/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI–09_02_2026.pdf" },
+    { id: 8, assunto: "EE. JOÃO BRÁSIO", data: "12/02/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO–09_02_2026.pdf" },
+    { id: 9, assunto: "EE. PROFESSOR JOEL AGUIAR", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR–09_02_2026.pdf" },
+    { id: 10, assunto: "EE. PROF. JOSÉ EDSON MOYSÉS", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_JOSE_EDSON_MOYSES–09_02_2026.pdf" },
+    { id: 11, assunto: "EE. PROFª LÉA APARECIDA VIEIRA GUEDES", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES–09_02_2026.pdf" },
+    { id: 12, assunto: "EE. DOM LÚCIO ANUTNES", data: "12/02/2026", arquivoUrl: "pdfs/EE_DOM_LUCIO_ANUTNES–09_02_2026.pdf" },
+    { id: 13, assunto: "EE. MINISTRO OSCAR PEDROSO HORTA", data: "12/02/2026", arquivoUrl: "pdfs/EE_MINISTRO_OSCAR_PEDROSO_HORTA–09_02_2026.pdf" },
+    { id: 14, assunto: "EE. DR PÉRCIO GOMES GONZALES", data: "12/02/2026", arquivoUrl: "pdfs/EE_DR_PERCIO_GOMES_GONZALES–09_02__2026.pdf" },
+    { id: 15, assunto: "EE. PROFESSOR SALVADOR RAMOS DE MOURA", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROFESSOR_SALVADOR_RAMOS_DE_MOURA–09_02_2026.pdf" },
+    { id: 16, assunto: "EE. PROFª. TAIEKA TAKAHASHI GIMENES", data: "12/02/2026", arquivoUrl: "pdfs/EE_PROF_TAIEKA_TAKAHASHI_GIMENES–09_02_2026.pdf" },
+    { id: 17, assunto: "EE. PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "12/02/2026", arquivoUrl: "pdfs/EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA–09_02_2026.pdf" }
 ];
 
 // ====================================================================

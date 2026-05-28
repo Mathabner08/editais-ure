@@ -7,23 +7,23 @@
 // A paginação fará o resto de forma automática!
 // ====================================================================
 const dadosPublicacoes = [
-    { id: 1, assunto: "EE 9 DE JULHO", data: "22/05/2026", arquivoUrl: "pdfs/EE_9_DE_JULHO.pdf" },
-    { id: 2, assunto: "EE DOM BOSCO", data: "22/05/2026", arquivoUrl: "pdfs/EE_DOM_BOSCO.pdf" },
-    { id: 3, assunto: "E.E. HANS WIRTH", data: "22/05/2026", arquivoUrl: "pdfs/EE_HANS_WIRTH.pdf" },
-    { id: 4, assunto: "EE IRALDO ANTONIO MARTINS DE TOLEDO", data: "22/05/2026", arquivoUrl: "pdfs/EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO.pdf" },
-    { id: 5, assunto: "EE “ENGº ISAC PEREIRA GARCEZ”", data: "22/05/2026", arquivoUrl: "pdfs/EE_ENG_ISAC_PEREIRA_GARCEZ.pdf" },
+    { id: 1, assunto: "EE. 9 DE JULHO", data: "22/05/2026", arquivoUrl: "pdfs/EE_9_DE_JULHO.pdf" },
+    { id: 2, assunto: "EE. DOM BOSCO", data: "22/05/2026", arquivoUrl: "pdfs/EE_DOM_BOSCO.pdf" },
+    { id: 3, assunto: "EE. HANS WIRTH", data: "22/05/2026", arquivoUrl: "pdfs/EE_HANS_WIRTH.pdf" },
+    { id: 4, assunto: "EE. IRALDO ANTONIO MARTINS DE TOLEDO", data: "22/05/2026", arquivoUrl: "pdfs/EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO.pdf" },
+    { id: 5, assunto: "EE. “ENGº ISAC PEREIRA GARCEZ”", data: "22/05/2026", arquivoUrl: "pdfs/EE_ENG_ISAC_PEREIRA_GARCEZ.pdf" },
     { id: 6, assunto: "EE. JACINTO PERNAS GOMATO", data: "22/05/2026", arquivoUrl: "pdfs/EE_JACINTO_PERNAS_GOMATO.pdf" },
-    { id: 7, assunto: "EE JOÃO BERNARDI", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI.pdf" },
-    { id: 8, assunto: "EE JOÃO BRÁSIO", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO.pdf" },
-    { id: 9, assunto: "E.E. PROFESSOR JOEL AGUIAR", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR.pdf" },
-    { id: 10, assunto: "EE PROF.ª LÉA APARECIDA VIEIRA GUEDES", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
-    { id: 11, assunto: "E.E. “PROFESSORA MARIA APARECIDA LOPES”", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSORA_MARIA_APARECIDA_LOPES.pdf" },
-    { id: 12, assunto: "E.E. PROF. ORLANDO GUIRADO BRAGA", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_ORLANDO_GUIRADO_BRAGA.pdf" },
-    { id: 13, assunto: "EE MINISTRO OSCAR PEDROSO HORTA", data: "22/05/2026", arquivoUrl: "pdfs/EE_MINISTRO_OSCAR_PEDROSO_HORTA.pdf" },
-    { id: 14, assunto: "EE DR. PÉRCIO GOMES GONZALES", data: "22/05/2026", arquivoUrl: "pdfs/EE_DR_PERCIO_GOMES_GONZALES.pdf" },
-    { id: 15, assunto: "EE SALVADOR RAMOS DE MOURA PROF. DR. JOSÉ ALVES", data: "22/05/2026", arquivoUrl: "pdfs/EE_SALVADOR_RAMOS_DE_MOURA_PROF.pdf" },
+    { id: 7, assunto: "EE. JOÃO BERNARDI", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI.pdf" },
+    { id: 8, assunto: "EE. JOÃO BRÁSIO", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO.pdf" },
+    { id: 9, assunto: "EE. PROFESSOR JOEL AGUIAR", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR.pdf" },
+    { id: 10, assunto: "EE. PROF.ª LÉA APARECIDA VIEIRA GUEDES", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
+    { id: 11, assunto: "EE. PROFESSORA MARIA APARECIDA LOPES", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSORA_MARIA_APARECIDA_LOPES.pdf" },
+    { id: 12, assunto: "EE. PROF. ORLANDO GUIRADO BRAGA", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_ORLANDO_GUIRADO_BRAGA.pdf" },
+    { id: 13, assunto: "EE. MINISTRO OSCAR PEDROSO HORTA", data: "22/05/2026", arquivoUrl: "pdfs/EE_MINISTRO_OSCAR_PEDROSO_HORTA.pdf" },
+    { id: 14, assunto: "EE. DR. PÉRCIO GOMES GONZALES", data: "22/05/2026", arquivoUrl: "pdfs/EE_DR_PERCIO_GOMES_GONZALES.pdf" },
+    { id: 15, assunto: "EE. SALVADOR RAMOS DE MOURA PROF. DR. JOSÉ ALVES", data: "22/05/2026", arquivoUrl: "pdfs/EE_SALVADOR_RAMOS_DE_MOURA_PROF.pdf" },
     { id: 16, assunto: "EE. PROFª TAIEKA TAKAHASHI GIMENES", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_TAIEKA_TAKAHASHI_GIMENES.pdf" },
-    { id: 17, assunto: "E.E. “PREF. WALDOMIRO SAMPAIO DE SOUZA”", data: "22/05/2026", arquivoUrl: "pdfs/EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA.pdf" }
+    { id: 17, assunto: "EE. PREF. WALDOMIRO SAMPAIO DE SOUZA", data: "22/05/2026", arquivoUrl: "pdfs/EE_PREF_WALDOMIRO_SAMPAIO_DE_SOUZA.pdf" }
 ];
 
 // ====================================================================
