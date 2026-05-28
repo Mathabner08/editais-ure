@@ -16,7 +16,7 @@ const dadosPublicacoes = [
     { id: 7, assunto: "EE JOÃO BERNARDI", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI.pdf" },
     { id: 8, assunto: "EE JOÃO BRÁSIO", data: "22/05/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO.pdf" },
     { id: 9, assunto: "E.E. PROFESSOR JOEL AGUIAR", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR.pdf" },
-    { id: 10, assunto: "EE PROF.ª LÉA APARECIDA VIEIRA GUEDES", data: "22/05/2026", arquivoUrl: "pdfsEE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
+    { id: 10, assunto: "EE PROF.ª LÉA APARECIDA VIEIRA GUEDES", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
     { id: 11, assunto: "E.E. “PROFESSORA MARIA APARECIDA LOPES”", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROFESSORA_MARIA_APARECIDA_LOPES.pdf" },
     { id: 12, assunto: "E.E. PROF. ORLANDO GUIRADO BRAGA", data: "22/05/2026", arquivoUrl: "pdfs/EE_PROF_ORLANDO_GUIRADO_BRAGA.pdf" },
     { id: 13, assunto: "EE MINISTRO OSCAR PEDROSO HORTA", data: "22/05/2026", arquivoUrl: "pdfs/EE_MINISTRO_OSCAR_PEDROSO_HORTA.pdf" },

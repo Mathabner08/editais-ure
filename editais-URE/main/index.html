@@ -3,15 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[NOME DA PÁGINA/EDITAL] - URE Adamantina</title>
+    <title>Central de Editais - URE Adamantina</title>
     
-    <link rel="icon" type="image/png" href="../../img/logo.png">
+    <link rel="icon" type="image/png" href="../img/logo.png">
     
-    <link rel="stylesheet" href="../../global/style.css">
+    <link rel="stylesheet" href="../global/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        .hub-section {
+            margin-bottom: 50px;
+        }
+        .hub-section h3 {
+            font-size: 18px;
+            color: #cc0000;
+            border-bottom: 2px solid #eeeeee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .hub-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 15px;
+        }
+        .hub-list li a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 25px;
+            background-color: #fbfbfb;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            color: #333333;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+            border-left: 4px solid #cc0000;
+        }
+        .hub-list li a:hover {
+            background-color: #ffffff;
+            border-color: #cccccc;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transform: translateX(5px);
+            color: #000000;
+        }
+        .hub-list li a i {
+            color: #999999;
+            transition: color 0.2s;
+        }
+        .hub-list li a:hover i {
+            color: #cc0000;
+        }
+        @media (max-width: 768px) {
+            .hub-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -22,7 +79,7 @@
                 <h1 class="main-logo">Unidade Regional de Ensino de Adamantina</h1>
             </div>
             <div class="gov-logo-area">
-                <img src="../../img/logo_SP.png" alt="Logo do Estado de São Paulo" class="sp-logo-img">
+                <img src="../img/logo_SP.png" alt="Logo do Estado de São Paulo" class="sp-logo-img">
             </div>
         </div>
     </header>
@@ -101,36 +158,52 @@
         
         <div class="section-header">
             <div class="title-group">
-                <h2 class="section-title">[TÍTULO PRINCIPAL DO EDITAL/PÁGINA AQUI]</h2>
-                <p class="section-subtitle">[Insira aqui uma breve descrição ou subtítulo profissional para orientar o usuário nesta página]</p>
+                <h2 class="section-title">Central de Editais e Publicações</h2>
+                <p class="section-subtitle">Selecione abaixo a categoria e o edital desejado para acessar os documentos oficiais.</p>
             </div>
         </div>
 
-        <div class="search-wrapper">
-            <div class="search-box">
-                <input type="text" id="searchInput" placeholder="Pesquisar">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </div>
+        <div class="hub-section">
+            <h3><i class="fa-solid fa-users"></i> Agente de Organização Escolar (AOE)</h3>
+            <ul class="hub-list">
+                <li>
+                    <a href="../EDITAIS/AOE/abertura-inscricoes-aoe/index.html">
+                        Abertura de Inscrições AOE <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../EDITAIS/AOE/classificacao-final-quadro-de-apoio-escolar-qae-aoe/index.html">
+                        Classificação Final (Quadro de Apoio Escolar QAE) <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../EDITAIS/AOE/divulgacao-1-classificacao-pss-aoe/index.html">
+                        Divulgação 1 - Classificação PSS <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../EDITAIS/AOE/divulgacao-final-classificacao-pss-aoe/index.html">
+                        Divulgação Final - Classificação PSS <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="../EDITAIS/AOE/quadro-de-apoio-escolar-qae-aoe/index.html">
+                        Quadro de Apoio Escolar QAE <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
 
-        <div class="table-responsive">
-            <table class="publications-table">
-                <thead>
-                    <tr>
-                        <th class="th-assunto">Assunto</th>
-                        <th class="th-data" id="btnSortData">
-                            Data da Publicação <i class="fa-solid fa-sort sort-icon" id="iconSortData"></i>
-                        </th>
-                        <th class="th-baixar">Baixar Publicação</th>
-                    </tr>
-                </thead>
-                <tbody id="tableBody">
-                    </tbody>
-            </table>
+        <div class="hub-section">
+            <h3><i class="fa-solid fa-chalkboard-user"></i> Atribuição de Classes e Aulas</h3>
+            <ul class="hub-list">
+                <li>
+                    <a href="../EDITAIS/ATRIBUICAO-CLASSES-AULAS/cadastro-emergencial-2026/index.html">
+                        Cadastro Emergencial 2026 <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-
-        <div id="paginationContainer" class="pagination-container">
-            </div>
 
     </main>
 
@@ -162,6 +235,69 @@
         </a>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            const nestedToggles = document.querySelectorAll('.nested-toggle');
+
+            // Lógica de fechamento inicial
+            document.querySelectorAll('.dropdown-menu, .nested-menu').forEach(menu => {
+                menu.classList.remove('show');
+            });
+            document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+                toggle.classList.remove('active-dropdown');
+            });
+
+            // Toggle Dropdown Principal
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const parent = this.parentElement;
+                    const menu = parent.querySelector('.dropdown-menu');
+
+                    document.querySelectorAll('.dropdown-menu').forEach(m => {
+                        if (m !== menu) {
+                            m.classList.remove('show');
+                            m.parentElement.querySelector('a').classList.remove('active-dropdown');
+                        }
+                    });
+                    
+                    document.querySelectorAll('.nested-menu').forEach(m => m.classList.remove('show'));
+
+                    menu.classList.toggle('show');
+                    this.classList.toggle('active-dropdown');
+                });
+            });
+
+            // Toggle Submenu (Nested)
+            nestedToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation(); 
+
+                    const parent = this.parentElement;
+                    const menu = parent.querySelector('.nested-menu');
+
+                    const parentDropdown = this.closest('.dropdown-menu');
+                    parentDropdown.querySelectorAll('.nested-menu').forEach(m => {
+                        if (m !== menu) {
+                            m.classList.remove('show');
+                        }
+                    });
+
+                    menu.classList.toggle('show');
+                });
+            });
+
+            // Fechar ao clicar fora
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav-bar')) {
+                    document.querySelectorAll('.dropdown-menu, .nested-menu').forEach(menu => menu.classList.remove('show'));
+                    document.querySelectorAll('.dropdown-toggle').forEach(toggle => toggle.classList.remove('active-dropdown'));
+                }
+            });
+        });
+    </script>
 </body>
 </html>

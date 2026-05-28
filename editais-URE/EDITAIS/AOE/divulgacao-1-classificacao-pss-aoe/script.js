@@ -14,7 +14,7 @@ const dadosPublicacoes = [
     { id: 4, assunto: "EE IRALDO ANTONIO MARTINS DE TOLEDO", data: "20/05/2026", arquivoUrl: "pdfs/EE_IRALDO_ANTONIO_MARTINS_DE_TOLEDO.pdf" },
     { id: 5, assunto: "EE “ENGº ISAC PEREIRA GARCEZ”", data: "20/05/2026", arquivoUrl: "pdfs/EE_ENG_ISAC_PEREIRA_GARCEZ.pdf" },
     { id: 6, assunto: "EE. JACINTO PERNAS GOMATO", data: "20/05/2026", arquivoUrl: "pdfs/EE_JACINTO_PERNAS_GOMATO.pdf" },
-    { id: 7, assunto: "EE JOÃO BERNARDI", data: "20/05/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDIpdf" },
+    { id: 7, assunto: "EE JOÃO BERNARDI", data: "20/05/2026", arquivoUrl: "pdfs/EE_JOAO_BERNARDI.pdf" },
     { id: 8, assunto: "EE JOÃO BRÁSIO", data: "20/05/2026", arquivoUrl: "pdfs/EE_JOAO_BRASIO.pdf" },
     { id: 9, assunto: "EE PROFESSOR JOEL AGUIAR", data: "20/05/2026", arquivoUrl: "pdfs/EE_PROFESSOR_JOEL_AGUIAR.pdf" },
     { id: 10, assunto: "E.E. PROFª LÉA APARECIDA VIEIRA GUEDES", data: "20/05/2026", arquivoUrl: "pdfs/EE_PROF_LEA_APARECIDA_VIEIRA_GUEDES.pdf" },
